@@ -1,150 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BUSINESS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BUSINESS</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
 
-<body class="font-['Quicksand'] bg-[url('p1.avif')] bg-no-repeat bg-cover">
-
-  <div class="h-full w-full absolute z-20" style="
-       background: rgba(255, 255, 255, 0.486);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-      ">
-
-
-    <aside class="left-0 top-0 fixed h-full w-20 px-5" style="
-          background: rgba(255, 255, 255, 0.247);
-        backdrop-filter: blur(11.5px);
-        -webkit-backdrop-filter: blur(11.5px);
+  <body class="font-['Quicksand'] bg-[url('p1.avif')] bg-no-repeat bg-cover">
+    <div
+      class="h-full w-full absolute z-20"
+      style="
+        background: rgba(255, 255, 255, 0.486);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
         border-radius: 10px;
         border: 1px solid rgba(255, 255, 255, 0.18);
-        ">
-       <ul class="grid place-item-center gap-10 py-24">
+      "
+    >
+    <script>
+      $(document).ready(function(){
+        $('#forbtncp').click(function(){
+          $('#forside').toggle();
+        })
+      })
+    </script>
 
-        <li class="rounded-full hover:bg-transparent py-5 transition duration-300 ease-in-out transform hover:scale-110">
-         <a href="index.html">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-10 bg-white rounded-full" viewBox="0 0 24 24" id="estate">
-                <path fill="#000000"
-                  d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z">
-                </path>
-              </svg>
-         </a>
-        </li>
-        <li class="rounded-full hover:bg-transparent py-5 transition duration-300 ease-in-out transform hover:scale-110">
-          <a href="user.html">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="pen"><path fill="#000000" d="M22,7.24a1,1,0,0,0-.29-.71L17.47,2.29A1,1,0,0,0,16.76,2a1,1,0,0,0-.71.29L13.22,5.12h0L2.29,16.05a1,1,0,0,0-.29.71V21a1,1,0,0,0,1,1H7.24A1,1,0,0,0,8,21.71L18.87,10.78h0L21.71,8a1.19,1.19,0,0,0,.22-.33,1,1,0,0,0,0-.24.7.7,0,0,0,0-.14ZM6.83,20H4V17.17l9.93-9.93,2.83,2.83ZM18.17,8.66,15.34,5.83l1.42-1.41,2.82,2.82Z"></path></svg>
-          </a>
-        </li>
-        <li
-          class="rounded-full hover:bg-transparent py-5 transition duration-300 ease-in-out transform hover:scale-110">
-          <a href="task.html">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="check"><path fill="#000000" d="M18.71,7.21a1,1,0,0,0-1.42,0L9.84,14.67,6.71,11.53A1,1,0,1,0,5.29,13l3.84,3.84a1,1,0,0,0,1.42,0l8.16-8.16A1,1,0,0,0,18.71,7.21Z"></path></svg>
-          </a></li>
-        <li
-          class="rounded-full hover:bg-transparent py-5 transition duration-300 ease-in-out transform hover:scale-110">
-         <a href="eye.html">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="eye"><path fill="#000000" d="M21.92,11.6C19.9,6.91,16.1,4,12,4S4.1,6.91,2.08,11.6a1,1,0,0,0,0,.8C4.1,17.09,7.9,20,12,20s7.9-2.91,9.92-7.6A1,1,0,0,0,21.92,11.6ZM12,18c-3.17,0-6.17-2.29-7.9-6C5.83,8.29,8.83,6,12,6s6.17,2.29,7.9,6C18.17,15.71,15.17,18,12,18ZM12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,14Z"></path></svg>
-         </a>
-        </li>
-        <li
-          class="rounded-full hover:bg-transparent py-5 transition duration-300 ease-in-out transform hover:scale-110">
-          <a href="report.html">
-            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24" id="file-graph"><path fill="#000000" d="M9,10h1a1,1,0,0,0,0-2H9a1,1,0,0,0,0,2Zm5.21045,2.38623-1.67334,2.15186-.86816-.78125a.9997.9997,0,0,0-1.44971.11865l-2,2.5a.9998.9998,0,1,0,1.56152,1.249l1.33789-1.67236.87891.791a.99989.99989,0,0,0,1.45849-.12939l2.3335-3a1.00005,1.00005,0,0,0-1.5791-1.22754Zm5.7771-3.44794a1.0088,1.0088,0,0,0-.27936-.64373l-.00146-.0019L13.70734,2.29327l-.00183-.00146a.99022.99022,0,0,0-.28608-.19281c-.0299-.014-.061-.02191-.09246-.033a.98253.98253,0,0,0-.26667-.05383C13.03925,2.01086,13.02136,2,13,2H7A3.00328,3.00328,0,0,0,4,5V19a3.00328,3.00328,0,0,0,3,3H17a3.00328,3.00328,0,0,0,3-3V9C20,8.97809,19.989,8.95984,19.98755,8.93829ZM14,5.41406,16.58594,8H15a1.0013,1.0013,0,0,1-1-1ZM18,19a1.0013,1.0013,0,0,1-1,1H7a1.0013,1.0013,0,0,1-1-1V5A1.0013,1.0013,0,0,1,7,4h5V7a3.00328,3.00328,0,0,0,3,3h3Z"></path></svg>
-          </a></li>
-        
+    <button id="forbtncp" class="absolute z-30  px-5 py-5 block md:hidden" type="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+      <path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"></path>
+      </svg></button>
 
-      </ul>
-    </aside>
 
-    <nav>
-      <ul class="flex justify-between px-44 items-center">
-        <li><b class="text-4xl">B</b></li>
-
-        <div>
-          <input type="search" name="" class="shadow-xl rounded-full px-10 mt-5 w-80 py-2 bg-white text-black"
-            placeholder="Search" id="">
+      <aside
+      id="forside"
+        class="left-0 top-0 fixed h-full w-20 px-5 hidden md:block z-20"
+        style="
+          background: rgba(255, 255, 255, 0.603);
+          backdrop-filter: blur(11.5px);
+          -webkit-backdrop-filter: blur(11.5px);
+          border-radius: 10px;
+          border: 1px solid rgba(255, 255, 255, 0.18);
+        "
+      >
+        <div class="flex items-center justify-center  h-screen">
+          <ul class="grid  place-items-center gap-5">
+            <li
+              class="home px-10 rounded-full  py-5 transition duration-300 ease-in-out transform hover:scale-110"
+            >
+             <a href="index.html">
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-8"
+              viewBox="0 0 24 24"
+              id="estate"
+            >
+              <path
+                class="h-8 w-8"
+                fill="#000000"
+                d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z"
+              ></path>
+            </svg>
+             </a>
+            </li>
+            <li
+              class="pen px-10 rounded-full  py-5 transition duration-300 ease-in-out transform hover:scale-110"
+            >
+              <a href="user.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="pen"
+                  class="h-8"
+                >
+                  <path
+                    class="h-8 w-8"
+                    fill="#000000"
+                    d="M22,7.24a1,1,0,0,0-.29-.71L17.47,2.29A1,1,0,0,0,16.76,2a1,1,0,0,0-.71.29L13.22,5.12h0L2.29,16.05a1,1,0,0,0-.29.71V21a1,1,0,0,0,1,1H7.24A1,1,0,0,0,8,21.71L18.87,10.78h0L21.71,8a1.19,1.19,0,0,0,.22-.33,1,1,0,0,0,0-.24.7.7,0,0,0,0-.14ZM6.83,20H4V17.17l9.93-9.93,2.83,2.83ZM18.17,8.66,15.34,5.83l1.42-1.41,2.82,2.82Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li
+            class="check px-10 rounded-full  py-5 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+              <a href="task.html">
+                <svg
+                  class="h-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="check"
+                >
+                  <path
+                    class="h-8 w-8"
+                    fill="#000000"
+                    d="M18.71,7.21a1,1,0,0,0-1.42,0L9.84,14.67,6.71,11.53A1,1,0,1,0,5.29,13l3.84,3.84a1,1,0,0,0,1.42,0l8.16-8.16A1,1,0,0,0,18.71,7.21Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li
+              class="eye px-10 rounded-full  py-5 transition duration-300 ease-in-out transform hover:scale-110"
+            >
+              <a href="eye.html">
+                <svg
+                  class="h-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  id="eye"
+                >
+                  <path
+                    fill="#000000"
+                    d="M21.92,11.6C19.9,6.91,16.1,4,12,4S4.1,6.91,2.08,11.6a1,1,0,0,0,0,.8C4.1,17.09,7.9,20,12,20s7.9-2.91,9.92-7.6A1,1,0,0,0,21.92,11.6ZM12,18c-3.17,0-6.17-2.29-7.9-6C5.83,8.29,8.83,6,12,6s6.17,2.29,7.9,6C18.17,15.71,15.17,18,12,18ZM12,8a4,4,0,1,0,4,4A4,4,0,0,0,12,8Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,14Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li
+            class="report px-10 rounded-full  py-5 transition duration-300 ease-in-out transform hover:scale-110"
+          >
+              <a href="report.html">
+                <svg
+                  class="h-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  data-name="Layer 1"
+                  viewBox="0 0 24 24"
+                  id="file-graph"
+                >
+                  <path
+                    fill="#000000"
+                    d="M9,10h1a1,1,0,0,0,0-2H9a1,1,0,0,0,0,2Zm5.21045,2.38623-1.67334,2.15186-.86816-.78125a.9997.9997,0,0,0-1.44971.11865l-2,2.5a.9998.9998,0,1,0,1.56152,1.249l1.33789-1.67236.87891.791a.99989.99989,0,0,0,1.45849-.12939l2.3335-3a1.00005,1.00005,0,0,0-1.5791-1.22754Zm5.7771-3.44794a1.0088,1.0088,0,0,0-.27936-.64373l-.00146-.0019L13.70734,2.29327l-.00183-.00146a.99022.99022,0,0,0-.28608-.19281c-.0299-.014-.061-.02191-.09246-.033a.98253.98253,0,0,0-.26667-.05383C13.03925,2.01086,13.02136,2,13,2H7A3.00328,3.00328,0,0,0,4,5V19a3.00328,3.00328,0,0,0,3,3H17a3.00328,3.00328,0,0,0,3-3V9C20,8.97809,19.989,8.95984,19.98755,8.93829ZM14,5.41406,16.58594,8H15a1.0013,1.0013,0,0,1-1-1ZM18,19a1.0013,1.0013,0,0,1-1,1H7a1.0013,1.0013,0,0,1-1-1V5A1.0013,1.0013,0,0,1,7,4h5V7a3.00328,3.00328,0,0,0,3,3h3Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-      </ul>
-    </nav>
+      </aside>
 
+  <nav class="hidden md:block">
+    <ul class="flex justify-between px-44 items-center">
+      <li><b class="text-4xl">B</b></li>
 
-    <main class="ml-24">
+      <div>
+        <input
+          type="search"
+          name=""
+          class="shadow-xl rounded-full px-10 mt-5 w-80 py-2 bg-white text-black"
+          placeholder="Search"
+          id=""
+        />
+      </div>
+    </ul>
+  </nav>
 
-
-      <div class="flex justify-between px-20 items-center">
-         
-
-            <div class="flex justify-start">
-                <div class="grid text-left">
-                    <b class="text-7xl font-extrabold">Reporting & Monitoring</b>
-                    <br />
-                  <p class="mt-5 text-justify w-96">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    consectetur voluptate impedit vitae neque ipsa. Et recusandae
-                    praesentium est, quia unde placeat accusantium aliquam quidem
-                    libero, harum, quasi quae voluptates.
-                  </p>
-                </div>
+  <main class="md:ml-24 md:mt-10 mt-24">
+        <div class="md:flex md:justify-between md:px-20 px-5 mt-5 items-center">
+          <div class="flex justify-start">
+            <div class="grid text-left">
+              <b class="text-5xl font-extrabold">Reporting & Monitoring</b>
+              <br />
+              <p class="mt-5 text-justify md:w-96">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                consectetur voluptate impedit vitae neque ipsa. Et recusandae
+                praesentium est.
+              </p>
             </div>
-  
-         
-          
-         
-        <div class="grid justify-between mt-20 gap-10 px-20">
-          <div class="px-6 py-5" style="background: rgba( 255, 255, 255, 0.65 );
-          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-          backdrop-filter: blur( 6.5px );
-          -webkit-backdrop-filter: blur( 6.5px );
-          border-radius: 10px;">
-          <b class="text-xl">Progress Tracking</b>
-               <div class="mt-5">
-                <p>Use workflow management tools to track the progress of tasks.</p>
-                <p>Monitor key performance indicators (KPIs).</p>
-               </div>
           </div>
 
-    
-          <div class="px-6 py-5" style="background: rgba( 255, 255, 255, 0.65 );
-          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-          backdrop-filter: blur( 6.5px );
-          -webkit-backdrop-filter: blur( 6.5px );
-          border-radius: 10px;">
-          <b class="text-xl">Regular Updates</b>
-               <div class="mt-5">
+          <div class="grid justify-between mt-5 md:gap-10 px-5 gap-5 md:px-20">
+            <div
+              class="px-6 py-5"
+              style="
+                background: rgba(255, 255, 255, 0.65);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(6.5px);
+                -webkit-backdrop-filter: blur(6.5px);
+                border-radius: 10px;
+              "
+            >
+              <b class="text-xl">Progress Tracking</b>
+              <div class="mt-5">
+                <p>
+                  Use workflow management tools to track the progress of tasks.
+                </p>
+                <p>Monitor key performance indicators (KPIs).</p>
+              </div>
+            </div>
+
+            <div
+              class="px-6 py-5"
+              style="
+                background: rgba(255, 255, 255, 0.65);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(6.5px);
+                -webkit-backdrop-filter: blur(6.5px);
+                border-radius: 10px;
+              "
+            >
+              <b class="text-xl">Regular Updates</b>
+              <div class="mt-5">
                 <p>Provide regular status updates to stakeholders.</p>
                 <p>Address any bottlenecks or delays in the process.</p>
-               </div>
-          </div>
+              </div>
+            </div>
 
-          <div class="px-6 py-5" style="background: rgba( 255, 255, 255, 0.65 );
-          box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-          backdrop-filter: blur( 6.5px );
-          -webkit-backdrop-filter: blur( 6.5px );
-          border-radius: 10px;">
-          <b class="text-xl">Issue Resolution</b>
-               <div class="mt-5">
-                <p>Identify any issues that arise and develop solutions quickly.</p>
-                
-               </div>
+            <div
+              class="px-6 py-5"
+              style="
+                background: rgba(255, 255, 255, 0.65);
+                box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+                backdrop-filter: blur(6.5px);
+                -webkit-backdrop-filter: blur(6.5px);
+                border-radius: 10px;
+              "
+            >
+              <b class="text-xl">Issue Resolution</b>
+              <div class="mt-5">
+                <p>
+                  Identify any issues that arise and develop solutions quickly.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-       
-      </div>
-
-    
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>
