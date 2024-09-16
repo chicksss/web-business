@@ -17,6 +17,16 @@
   </head>
 
   <body class="font-['Quicksand'] bg-[url('p1.avif')] bg-no-repeat bg-cover">
+
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+      document.onkeydown = function(e) {
+          if(e.keyCode == 123 || (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))) {
+              return false;
+          }
+      }
+      </script>
+      
     <div
       class="h-full w-full absolute z-20"
       style="
